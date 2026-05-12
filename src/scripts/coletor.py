@@ -57,9 +57,15 @@ try:
                 while True:
                     linha = ser.readline().decode('utf-8').strip()
                     if linha:
+                        if linha.startswith("ERRO:"):
+                            logging.warning(f"Arduino reportou: {linha}")
+                            continue
                         dados = linha.split(',')
                         if len(dados) == 4:
                             chuva, temp, umid, pres = map(float, dados)
+                            if temp == 0.0 and umid == 0.0 and pres == 0.0:
+                                logging.warning("Leitura ignorada: BME280 ausente ou com falha.")
+                                continue
                             orvalho = calcular_ponto_orvalho(temp, umid)
                             cursor.execute(
                                 "INSERT INTO leituras (chuva, temp, umid, pres, ponto_orvalho) VALUES (?,?,?,?,?)",

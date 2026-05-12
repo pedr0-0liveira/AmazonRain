@@ -48,7 +48,7 @@ void loop() {
   // Se o BME falhar (retornar NaN), enviamos 0.0 para não quebrar o banco de dados
   if (isnan(temp)) temp = 0.0;
   if (isnan(umid)) umid = 0.0;
-
+  if (isnan(pres)) pres = 0.0;  
   // Saída Serial Otimizada para Python: chuva,temp,umid,pres
   Serial.print(chuvaNoIntervalo);
   Serial.print(",");

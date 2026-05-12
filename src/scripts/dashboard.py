@@ -14,7 +14,6 @@ st_autorefresh(interval=10000, limit=None, key="auto_refresh")
 # --- Funções de cálculo ---
 
 def calcular_heat_index(t, h):
-    """Fórmula de Rothfusz. Válida para t >= 27°C e h >= 40%."""
     if t < 27 or h < 40:
         return t
     hi = (-8.78469475556
@@ -29,7 +28,6 @@ def calcular_heat_index(t, h):
     return round(hi, 1)
 
 def classificar_intensidade(chuva_mm_por_5s):
-    """Converte mm/5s para mm/h e classifica."""
     mmh = chuva_mm_por_5s * 720
     if mmh == 0:
         return "Sem chuva", "🌤️"
@@ -43,25 +41,31 @@ def classificar_intensidade(chuva_mm_por_5s):
         return "Muito forte", "🌊"
 
 def calcular_tendencia_pressao(df):
-    """Diferença de pressão entre agora e ~30 min atrás."""
-    if len(df) < 2:
+    pres_valida = df['pres'].dropna()
+    if len(pres_valida) < 2:
         return 0.0
-    agora = df['pres'].iloc[-1]
-    # 30 min atrás = 360 leituras de 5s; pega o mais antigo disponível se não tiver
-    idx = max(0, len(df) - 360)
-    antes = df['pres'].iloc[idx]
-    return round(agora - antes, 2)
+    agora = pres_valida.iloc[-1]
+    idx = max(0, len(pres_valida) - 360)
+    antes = pres_valida.iloc[idx]
+    return round(float(agora - antes), 2)
 
 def carregar_dados():
     if not os.path.exists(DB_PATH):
         return pd.DataFrame()
     conn = sqlite3.connect(DB_PATH)
+    tabela_existe = conn.execute(
+        "SELECT name FROM sqlite_master WHERE type='table' AND name='leituras'"
+    ).fetchone()
+    if not tabela_existe:
+        conn.close()
+        return pd.DataFrame()
     df = pd.read_sql_query(
         "SELECT * FROM leituras ORDER BY timestamp ASC LIMIT 1000", conn
     )
     conn.close()
     if df.empty:
         return df
+    df = df.fillna(0)
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     df['chuva_acumulada'] = df['chuva'].cumsum()
     df['heat_index'] = df.apply(
@@ -69,10 +73,27 @@ def carregar_dados():
     )
     return df
 
+def limpar_dados():
+    if not os.path.exists(DB_PATH):
+        return
+    conn = sqlite3.connect(DB_PATH)
+    conn.execute("DELETE FROM leituras")
+    conn.commit()
+    conn.close()
+
 # --- Interface ---
 
 st.title("🌦️ AmazonRain — Monitorização de Microclima")
 st.caption("Manaus · BME280 + Sensor de báscula KY-024")
+
+# --- Painel de teste (sidebar) ---
+with st.sidebar:
+    st.header("🛠️ Ferramentas de teste")
+    st.warning("Use apenas durante testes.")
+    if st.button("🗑️ Limpar todos os dados", type="primary"):
+        limpar_dados()
+        st.success("Banco limpo com sucesso!")
+        st.rerun()
 
 df = carregar_dados()
 
@@ -80,12 +101,11 @@ if df.empty:
     st.warning("Aguardando dados do Arduino...")
     st.stop()
 
-ultima = df.iloc[-1]  # mais recente (df está ASC)
+ultima = df.iloc[-1]
 intensidade, emoji = classificar_intensidade(ultima['chuva'])
 tendencia = calcular_tendencia_pressao(df)
 heat_index = calcular_heat_index(ultima['temp'], ultima['umid'])
 
-# Tendência de pressão: ícone e texto
 if tendencia > 0.5:
     tend_label = f"▲ +{tendencia} hPa (subindo)"
 elif tendencia < -1.5:
