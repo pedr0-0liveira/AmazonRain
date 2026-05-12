@@ -26,7 +26,7 @@ if %errorlevel% neq 0 (
     exit
 )
 
-:: 4. Cria o ambiente virtual se ainda não existir
+:: 4. Cria o ambiente virtual se ainda nao existir
 if not exist "%VENV_DIR%" (
     echo [INFO] Criando ambiente virtual...
     %PYTHON_EXE% -m venv "%VENV_DIR%"
@@ -35,8 +35,8 @@ if not exist "%VENV_DIR%" (
 :: 5. Ativa o ambiente virtual
 call "%VENV_DIR%\Scripts\activate.bat"
 
-:: 6. Instala dependências
-echo [INFO] Verificando dependências...
+:: 6. Instala dependencias
+echo [INFO] Verificando dependencias...
 pip install -r "%SCRIPTS_DIR%\requirements.txt" --quiet
 
 :: 7. Inicia o Coletor em segundo plano
