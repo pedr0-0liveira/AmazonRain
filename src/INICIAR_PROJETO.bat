@@ -15,26 +15,37 @@ if %errorlevel% neq 0 (
     exit
 )
 
-:: 2. Garante que o PIP esteja instalado e atualizado
-echo [INFO] Verificando instalador de pacotes...
-%PYTHON_EXE% -m ensurepip
-%PYTHON_EXE% -m pip install --upgrade pip
+:: Cria o ambiente virtual se ainda não existir
+set "VENV_DIR=%SRC_DIR%venv"
+if not exist "%VENV_DIR%" (
+    echo [INFO] Criando ambiente virtual...
+    %PYTHON_EXE% -m venv "%VENV_DIR%"
+)
 
-:: 3. Instala as bibliotecas necessarias
-echo [INFO] Verificando bibliotecas...
-%PYTHON_EXE% -m pip install pyserial pandas streamlit
+:: Ativa o ambiente virtual
+call "%VENV_DIR%\Scripts\activate.bat"
 
-:: 4. Ajusta o diretório de trabalho para a pasta onde o .bat está
-cd /d "%~dp0"
+:: Instala dependências dentro do venv
+echo [INFO] Verificando dependências...
+pip install -r "%SCRIPTS_DIR%\requirements.txt" --quiet
 
-:: 5. Executa o Coletor
+:: Define caminhos absolutos a partir da pasta do .bat
+set "SRC_DIR=%~dp0"
+set "SCRIPTS_DIR=%SRC_DIR%scripts"
+set "COLETOR=%SCRIPTS_DIR%\coletor.py"
+set "DASHBOARD=%SCRIPTS_DIR%\dashboard.py"
+set "DADOS_DIR=%SRC_DIR%dados"
+
+:: Garante que a pasta de dados existe
+if not exist "%DADOS_DIR%" mkdir "%DADOS_DIR%"
+
+:: Inicia o Coletor em segundo plano
 echo [INFO] Iniciando Coletor...
-:: Se o .bat está na pasta AmazonRain, o comando correto é:
-start /b python scripts\coletor.py
+start /b %PYTHON_EXE% "%COLETOR%"
 
-:: 6. Executa o Dashboard
+:: Inicia o Dashboard
 echo [INFO] Abrindo Dashboard...
-python -m streamlit run scripts\dashboard.py
+%PYTHON_EXE% -m streamlit run "%DASHBOARD%"
 
 echo ======================================================
 echo SISTEMA EM EXECUCAO!

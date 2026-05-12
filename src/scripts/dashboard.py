@@ -1,12 +1,22 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DB_PATH = os.path.join(BASE_DIR, "..", "dados", "dados_microclima.db")
+
 from datetime import datetime
+
+from streamlit_autorefresh import st_autorefresh
+
+# Atualiza a página a cada 10 segundos (10000ms)
+st_autorefresh(interval=10000, limit=None, key="auto_refresh")
 
 st.set_page_config(page_title="Pluviómetro Inteligente - Manaus", layout="wide")
 
 def carregar_dados():
-    conn = sqlite3.connect("dados_microclima.db")
+    conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query("SELECT * FROM leituras ORDER BY timestamp DESC LIMIT 1000", conn)
     conn.close()
     df['timestamp'] = pd.to_datetime(df['timestamp'])
@@ -38,7 +48,4 @@ else:
     st.warning("Aguardando dados do Arduino...")
 
 # Auto-refresh a cada 10 segundos
-st.empty()
-time_now = datetime.now().strftime("%H:%M:%S")
-st.write(f"Última atualização: {time_now}")
-st.button("Atualizar Dados")
+st.caption(f"Atualizado em: {datetime.now().strftime('%H:%M:%S')} · refresh a cada 10s")
