@@ -11,9 +11,9 @@ from datetime import datetime
 from streamlit_autorefresh import st_autorefresh
 
 # Atualiza a página a cada 10 segundos (10000ms)
-st_autorefresh(interval=10000, limit=None, key="auto_refresh")
-
 st.set_page_config(page_title="Pluviómetro Inteligente - Manaus", layout="wide")
+
+st_autorefresh(interval=10000, limit=None, key="auto_refresh")
 
 def carregar_dados():
     conn = sqlite3.connect(DB_PATH)
