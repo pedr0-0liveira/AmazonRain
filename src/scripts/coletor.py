@@ -2,9 +2,9 @@ import serial
 import serial.tools.list_ports
 import sqlite3
 import time
-import math
 import os
 import logging
+from datetime import datetime
 
 # --- Caminhos absolutos ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -23,12 +23,6 @@ logging.basicConfig(
     ]
 )
 
-def calcular_ponto_orvalho(t, h):
-    if t == 0 or h == 0: return 0
-    a, b = 17.27, 237.7
-    alpha = ((a * t) / (b + t)) + math.log(h / 100.0)
-    return (b * alpha) / (a - alpha)
-
 def encontrar_arduino():
     portas = serial.tools.list_ports.comports()
     for p in portas:
@@ -39,9 +33,10 @@ def encontrar_arduino():
 # --- Banco de Dados ---
 conn = sqlite3.connect(DB_PATH)
 cursor = conn.cursor()
-cursor.execute('''CREATE TABLE IF NOT EXISTS leituras 
-               (timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, 
-                chuva REAL, temp REAL, umid REAL, pres REAL, ponto_orvalho REAL)''')
+cursor.execute('''CREATE TABLE IF NOT EXISTS leituras
+               (timestamp DATETIME,
+                chuva REAL, temp REAL, pres REAL, alt REAL,
+                intervalo_ms INTEGER)''')
 conn.commit()
 
 # --- Loop principal ---
@@ -61,18 +56,25 @@ try:
                             logging.warning(f"Arduino reportou: {linha}")
                             continue
                         dados = linha.split(',')
-                        if len(dados) == 4:
-                            chuva, temp, umid, pres = map(float, dados)
-                            if temp == 0.0 and umid == 0.0 and pres == 0.0:
-                                logging.warning("Leitura ignorada: BME280 ausente ou com falha.")
+                        if len(dados) == 5:
+                            chuva       = float(dados[0])
+                            temp        = float(dados[1])
+                            pres        = float(dados[2])
+                            alt         = float(dados[3])
+                            intervalo_ms = int(float(dados[4]))
+
+                            if temp == 0.0 and pres == 0.0:
+                                logging.warning("Leitura ignorada: BMP280 ausente ou com falha.")
                                 continue
-                            orvalho = calcular_ponto_orvalho(temp, umid)
+
+                            agora = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
                             cursor.execute(
-                                "INSERT INTO leituras (chuva, temp, umid, pres, ponto_orvalho) VALUES (?,?,?,?,?)",
-                                (chuva, temp, umid, pres, orvalho)
+                                "INSERT INTO leituras (timestamp, chuva, temp, pres, alt, intervalo_ms) VALUES (?,?,?,?,?,?)",
+                                (agora, chuva, temp, pres, alt, intervalo_ms)
                             )
                             conn.commit()
-                            logging.info(f"Dados salvos: T:{temp}C | Chuva:{chuva}mm")
+                            logging.info(f"Dados salvos: T:{temp}°C | P:{pres}hPa | Alt:{alt}m | Chuva:{chuva}mm | Intervalo:{intervalo_ms}ms")
             except Exception as e:
                 logging.error(f"Erro na conexão: {e}. Tentando reconectar em 5s...")
                 time.sleep(5)

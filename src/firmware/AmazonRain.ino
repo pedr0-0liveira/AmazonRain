@@ -1,16 +1,16 @@
 #include <Wire.h>
-#include <Adafruit_Sensor.h>
-#include <Adafruit_BME280.h>
+#include <Adafruit_BMP280.h>
 
-#define PIN_HALL 2 
-const float VOLUME_BASCULA = 0.25; 
+#define PIN_HALL 2
+const float VOLUME_BASCULA = 0.25;
+const float PRESSAO_NIVEL_MAR = 1013.25; // hPa — ajustar para Manaus se tiver referência local
+
 volatile int contadorPulsos = 0;
 unsigned long ultimoTempoPulso = 0;
-const unsigned long debounceTime = 150; // Ajustado para 150ms
+const unsigned long debounceTime = 200;
 
-Adafruit_BME280 bme;
+Adafruit_BMP280 bmp;
 
-// Interrupção: Mantida a lógica de debounce que você fez, está excelente.
 void registroChuva() {
   unsigned long tempoAtual = millis();
   if (tempoAtual - ultimoTempoPulso > debounceTime) {
@@ -21,42 +21,44 @@ void registroChuva() {
 
 void setup() {
   Serial.begin(9600);
-  
-  pinMode(PIN_HALL, INPUT_PULLUP); 
+  pinMode(PIN_HALL, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(PIN_HALL), registroChuva, FALLING);
 
-  // Inicialização do BME280
-  if (!bme.begin(0x76)) {
-    // Se falhar, enviamos um sinal via serial mas não travamos o loop
-    // Isso ajuda no "Plug-and-Play" se o cabo I2C estiver frouxo
+  if (!bmp.begin(0x76)) {
+    Serial.println("ERRO:BMP280");
+    while (1) delay(10);
   }
+
+  // Configurações de precisão do BMP280
+  bmp.setSampling(
+    Adafruit_BMP280::MODE_NORMAL,
+    Adafruit_BMP280::SAMPLING_X16,   // temperatura: 16 amostras
+    Adafruit_BMP280::SAMPLING_X16,   // pressão: 16 amostras
+    Adafruit_BMP280::FILTER_X16,     // filtro IIR máximo — elimina ruído
+    Adafruit_BMP280::STANDBY_MS_500  // ciclo de 500ms
+  );
 }
 
 void loop() {
-  // Captura o valor atual e zera o contador imediatamente (seção crítica)
-  noInterrupts(); // Desativa para evitar conflito com novo pulso durante a leitura
+  noInterrupts();
   int pulsosNoIntervalo = contadorPulsos;
-  contadorPulsos = 0; 
+  contadorPulsos = 0;
   interrupts();
 
   float chuvaNoIntervalo = pulsosNoIntervalo * VOLUME_BASCULA;
-  
-  float temp = bme.readTemperature();
-  float umid = bme.readHumidity();
-  float pres = bme.readPressure() / 100.0F;
+  float temp = bmp.readTemperature();
+  float pres = bmp.readPressure() / 100.0F; // Pa → hPa
+  float alt  = bmp.readAltitude(PRESSAO_NIVEL_MAR);
 
-  // Se o BME falhar (retornar NaN), enviamos 0.0 para não quebrar o banco de dados
   if (isnan(temp)) temp = 0.0;
-  if (isnan(umid)) umid = 0.0;
-  if (isnan(pres)) pres = 0.0;  
-  // Saída Serial Otimizada para Python: chuva,temp,umid,pres
-  Serial.print(chuvaNoIntervalo);
-  Serial.print(",");
-  Serial.print(temp);
-  Serial.print(",");
-  Serial.print(umid);
-  Serial.print(",");
-  Serial.println(pres);
+  if (isnan(pres)) pres = 0.0;
+  if (isnan(alt))  alt  = 0.0;
 
-  delay(5000); // Frequência de 5s é ótima para microclima
+  // Formato: chuva,temp,pres,alt
+  Serial.print(chuvaNoIntervalo); Serial.print(",");
+  Serial.print(temp);             Serial.print(",");
+  Serial.print(pres);             Serial.print(",");
+  Serial.println(alt);
+
+  delay(5000);
 }

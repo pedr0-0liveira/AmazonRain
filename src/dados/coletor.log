@@ -220,3 +220,620 @@
 2026-05-12 19:49:27,281 [INFO] Dados salvos: T:0.0C | Chuva:0.0mm
 2026-05-12 19:49:32,297 [INFO] Dados salvos: T:0.0C | Chuva:0.0mm
 2026-05-12 19:49:37,282 [INFO] Dados salvos: T:0.0C | Chuva:0.0mm
+2026-05-14 16:35:42,093 [INFO] Sistema iniciado. Buscando Arduino...
+2026-05-14 16:35:42,100 [INFO] Conectado em: COM3
+2026-05-14 16:35:42,101 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:35:47,115 [INFO] Conectado em: COM3
+2026-05-14 16:35:47,117 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:35:52,130 [INFO] Conectado em: COM3
+2026-05-14 16:35:52,131 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:35:57,145 [INFO] Conectado em: COM3
+2026-05-14 16:35:57,147 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:36:02,236 [INFO] Conectado em: COM3
+2026-05-14 16:36:02,238 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:36:07,550 [INFO] Conectado em: COM3
+2026-05-14 16:36:07,594 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:36:12,608 [INFO] Conectado em: COM3
+2026-05-14 16:36:12,609 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:36:17,619 [INFO] Conectado em: COM3
+2026-05-14 16:36:17,619 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:36:22,629 [INFO] Conectado em: COM3
+2026-05-14 16:36:22,629 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:38:38,079 [INFO] Sistema iniciado. Buscando Arduino...
+2026-05-14 16:38:38,085 [INFO] Conectado em: COM3
+2026-05-14 16:38:38,085 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:38:43,107 [INFO] Conectado em: COM3
+2026-05-14 16:38:43,109 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:38:48,121 [INFO] Conectado em: COM3
+2026-05-14 16:38:48,123 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:38:53,137 [INFO] Conectado em: COM3
+2026-05-14 16:38:53,138 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:38:58,223 [INFO] Conectado em: COM3
+2026-05-14 16:38:58,227 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:03,384 [INFO] Conectado em: COM3
+2026-05-14 16:39:03,386 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:08,543 [INFO] Conectado em: COM3
+2026-05-14 16:39:08,547 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:13,771 [INFO] Conectado em: COM3
+2026-05-14 16:39:13,773 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:18,991 [INFO] Conectado em: COM3
+2026-05-14 16:39:18,993 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:24,003 [INFO] Conectado em: COM3
+2026-05-14 16:39:24,004 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:29,014 [INFO] Conectado em: COM3
+2026-05-14 16:39:29,015 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:34,023 [INFO] Conectado em: COM3
+2026-05-14 16:39:34,024 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:39,030 [INFO] Conectado em: COM3
+2026-05-14 16:39:39,031 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:44,036 [INFO] Conectado em: COM3
+2026-05-14 16:39:44,037 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:49,046 [INFO] Conectado em: COM3
+2026-05-14 16:39:49,047 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:54,055 [INFO] Conectado em: COM3
+2026-05-14 16:39:54,056 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:39:59,063 [INFO] Conectado em: COM3
+2026-05-14 16:39:59,064 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:40:04,072 [INFO] Conectado em: COM3
+2026-05-14 16:40:04,073 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:40:09,085 [INFO] Conectado em: COM3
+2026-05-14 16:40:09,086 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 16:40:14,098 [INFO] Conectado em: COM3
+2026-05-14 16:40:16,108 [INFO] Dados salvos: T:32.51°C | P:1004.95hPa | Alt:69.31m | Chuva:0.0mm
+2026-05-14 16:40:20,849 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.35m | Chuva:0.0mm
+2026-05-14 16:40:22,650 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.35m | Chuva:0.25mm
+2026-05-14 16:40:22,751 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.35m | Chuva:0.0mm
+2026-05-14 16:40:23,472 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.34m | Chuva:0.25mm
+2026-05-14 16:40:23,714 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.33m | Chuva:0.25mm
+2026-05-14 16:40:24,450 [INFO] Dados salvos: T:32.5°C | P:1004.96hPa | Alt:69.29m | Chuva:0.25mm
+2026-05-14 16:40:24,637 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.31m | Chuva:0.0mm
+2026-05-14 16:40:25,370 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.32m | Chuva:0.25mm
+2026-05-14 16:40:25,556 [INFO] Dados salvos: T:32.5°C | P:1004.96hPa | Alt:69.29m | Chuva:0.0mm
+2026-05-14 16:40:27,169 [INFO] Dados salvos: T:32.51°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:40:27,346 [INFO] Dados salvos: T:32.51°C | P:1004.96hPa | Alt:69.28m | Chuva:0.0mm
+2026-05-14 16:40:28,026 [INFO] Dados salvos: T:32.51°C | P:1004.96hPa | Alt:69.27m | Chuva:0.25mm
+2026-05-14 16:40:28,162 [INFO] Dados salvos: T:32.51°C | P:1004.96hPa | Alt:69.27m | Chuva:0.0mm
+2026-05-14 16:40:28,889 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.27m | Chuva:0.25mm
+2026-05-14 16:40:29,023 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.25m | Chuva:0.0mm
+2026-05-14 16:40:29,779 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:40:30,581 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:40:30,699 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.28m | Chuva:0.0mm
+2026-05-14 16:40:30,790 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:40:31,310 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.26m | Chuva:0.25mm
+2026-05-14 16:40:31,488 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.27m | Chuva:0.0mm
+2026-05-14 16:40:32,150 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.29m | Chuva:0.25mm
+2026-05-14 16:40:32,207 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.29m | Chuva:0.0mm
+2026-05-14 16:40:32,381 [INFO] Dados salvos: T:32.52°C | P:1004.95hPa | Alt:69.3m | Chuva:0.25mm
+2026-05-14 16:40:32,980 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:40:33,162 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:40:33,707 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:40:34,031 [INFO] Dados salvos: T:32.53°C | P:1004.95hPa | Alt:69.3m | Chuva:0.25mm
+2026-05-14 16:40:34,740 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:40:36,776 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.25m | Chuva:0.25mm
+2026-05-14 16:40:36,798 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.25m | Chuva:0.0mm
+2026-05-14 16:40:36,932 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.25m | Chuva:0.0mm
+2026-05-14 16:40:37,749 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.26m | Chuva:0.25mm
+2026-05-14 16:40:37,979 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.26m | Chuva:0.25mm
+2026-05-14 16:40:40,095 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.24m | Chuva:0.25mm
+2026-05-14 16:40:40,214 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.24m | Chuva:0.0mm
+2026-05-14 16:40:41,280 [INFO] Dados salvos: T:32.52°C | P:1004.96hPa | Alt:69.24m | Chuva:0.25mm
+2026-05-14 16:40:41,561 [INFO] Dados salvos: T:32.51°C | P:1004.96hPa | Alt:69.27m | Chuva:0.25mm
+2026-05-14 16:40:43,191 [INFO] Dados salvos: T:32.51°C | P:1004.96hPa | Alt:69.25m | Chuva:0.25mm
+2026-05-14 16:40:43,570 [INFO] Dados salvos: T:32.51°C | P:1004.96hPa | Alt:69.27m | Chuva:0.25mm
+2026-05-14 16:40:44,117 [INFO] Dados salvos: T:32.51°C | P:1004.96hPa | Alt:69.24m | Chuva:0.25mm
+2026-05-14 16:40:44,485 [INFO] Dados salvos: T:32.5°C | P:1004.96hPa | Alt:69.25m | Chuva:0.25mm
+2026-05-14 16:40:45,121 [INFO] Dados salvos: T:32.5°C | P:1004.96hPa | Alt:69.25m | Chuva:0.25mm
+2026-05-14 16:40:45,610 [INFO] Dados salvos: T:32.5°C | P:1004.96hPa | Alt:69.25m | Chuva:0.25mm
+2026-05-14 16:40:46,630 [INFO] Dados salvos: T:32.5°C | P:1004.96hPa | Alt:69.25m | Chuva:0.5mm
+2026-05-14 16:40:51,638 [INFO] Dados salvos: T:32.48°C | P:1004.96hPa | Alt:69.28m | Chuva:0.0mm
+2026-05-14 16:40:56,659 [INFO] Dados salvos: T:32.47°C | P:1004.96hPa | Alt:69.27m | Chuva:0.0mm
+2026-05-14 16:41:01,652 [INFO] Dados salvos: T:32.46°C | P:1004.96hPa | Alt:69.29m | Chuva:0.0mm
+2026-05-14 16:41:06,671 [INFO] Dados salvos: T:32.45°C | P:1004.95hPa | Alt:69.33m | Chuva:0.0mm
+2026-05-14 16:41:11,679 [INFO] Dados salvos: T:32.44°C | P:1004.95hPa | Alt:69.38m | Chuva:0.0mm
+2026-05-14 16:41:16,668 [INFO] Dados salvos: T:32.43°C | P:1004.95hPa | Alt:69.34m | Chuva:0.0mm
+2026-05-14 16:41:21,693 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.3m | Chuva:0.0mm
+2026-05-14 16:41:26,697 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.34m | Chuva:0.0mm
+2026-05-14 16:41:31,695 [INFO] Dados salvos: T:32.4°C | P:1004.95hPa | Alt:69.34m | Chuva:0.0mm
+2026-05-14 16:41:36,694 [INFO] Dados salvos: T:32.38°C | P:1004.95hPa | Alt:69.36m | Chuva:0.0mm
+2026-05-14 16:41:41,719 [INFO] Dados salvos: T:32.38°C | P:1004.96hPa | Alt:69.29m | Chuva:0.0mm
+2026-05-14 16:41:46,704 [INFO] Dados salvos: T:32.37°C | P:1004.95hPa | Alt:69.32m | Chuva:0.0mm
+2026-05-14 16:41:50,289 [INFO] Dados salvos: T:32.37°C | P:1004.95hPa | Alt:69.33m | Chuva:0.25mm
+2026-05-14 16:41:50,455 [INFO] Dados salvos: T:32.37°C | P:1004.95hPa | Alt:69.33m | Chuva:0.0mm
+2026-05-14 16:41:51,088 [INFO] Dados salvos: T:32.37°C | P:1004.95hPa | Alt:69.3m | Chuva:0.25mm
+2026-05-14 16:41:51,264 [INFO] Dados salvos: T:32.37°C | P:1004.95hPa | Alt:69.3m | Chuva:0.0mm
+2026-05-14 16:41:52,317 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.29m | Chuva:0.25mm
+2026-05-14 16:41:52,609 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.29m | Chuva:0.25mm
+2026-05-14 16:41:53,962 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:41:55,849 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.28m | Chuva:0.5mm
+2026-05-14 16:41:56,973 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.24m | Chuva:0.5mm
+2026-05-14 16:41:57,593 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.24m | Chuva:0.25mm
+2026-05-14 16:41:57,635 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.24m | Chuva:0.0mm
+2026-05-14 16:41:59,096 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.26m | Chuva:0.5mm
+2026-05-14 16:41:59,766 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.29m | Chuva:0.25mm
+2026-05-14 16:41:59,821 [INFO] Dados salvos: T:32.37°C | P:1004.96hPa | Alt:69.29m | Chuva:0.0mm
+2026-05-14 16:42:00,877 [INFO] Dados salvos: T:32.38°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:42:01,120 [INFO] Dados salvos: T:32.38°C | P:1004.96hPa | Alt:69.28m | Chuva:0.25mm
+2026-05-14 16:42:02,374 [INFO] Dados salvos: T:32.38°C | P:1004.95hPa | Alt:69.31m | Chuva:0.25mm
+2026-05-14 16:42:05,057 [INFO] Dados salvos: T:32.4°C | P:1004.95hPa | Alt:69.3m | Chuva:0.25mm
+2026-05-14 16:42:05,453 [INFO] Dados salvos: T:32.4°C | P:1004.95hPa | Alt:69.3m | Chuva:0.25mm
+2026-05-14 16:42:06,370 [INFO] Dados salvos: T:32.4°C | P:1004.95hPa | Alt:69.35m | Chuva:0.25mm
+2026-05-14 16:42:08,551 [INFO] Dados salvos: T:32.4°C | P:1004.95hPa | Alt:69.34m | Chuva:0.5mm
+2026-05-14 16:42:09,835 [INFO] Dados salvos: T:32.4°C | P:1004.95hPa | Alt:69.33m | Chuva:0.25mm
+2026-05-14 16:42:10,940 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.3m | Chuva:0.25mm
+2026-05-14 16:42:11,964 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.31m | Chuva:0.25mm
+2026-05-14 16:42:13,123 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.3m | Chuva:0.25mm
+2026-05-14 16:42:18,112 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.31m | Chuva:0.25mm
+2026-05-14 16:42:22,174 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.32m | Chuva:0.5mm
+2026-05-14 16:42:22,430 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.32m | Chuva:0.25mm
+2026-05-14 16:42:27,437 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.34m | Chuva:0.0mm
+2026-05-14 16:42:27,760 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.34m | Chuva:0.25mm
+2026-05-14 16:42:29,378 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.36m | Chuva:1.25mm
+2026-05-14 16:42:30,324 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.36m | Chuva:0.5mm
+2026-05-14 16:42:30,564 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.33m | Chuva:0.0mm
+2026-05-14 16:42:33,933 [INFO] Dados salvos: T:32.41°C | P:1004.95hPa | Alt:69.35m | Chuva:0.75mm
+2026-05-14 16:42:37,612 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.34m | Chuva:0.25mm
+2026-05-14 16:42:38,567 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.36m | Chuva:0.5mm
+2026-05-14 16:42:39,801 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.37m | Chuva:0.5mm
+2026-05-14 16:42:40,769 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.37m | Chuva:0.25mm
+2026-05-14 16:42:41,180 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.35m | Chuva:0.25mm
+2026-05-14 16:42:41,372 [INFO] Dados salvos: T:32.42°C | P:1004.95hPa | Alt:69.35m | Chuva:0.0mm
+2026-05-14 16:42:41,858 [INFO] Dados salvos: T:32.43°C | P:1004.95hPa | Alt:69.35m | Chuva:0.25mm
+2026-05-14 16:42:43,688 [INFO] Dados salvos: T:32.43°C | P:1004.95hPa | Alt:69.34m | Chuva:1.0mm
+2026-05-14 16:42:43,920 [INFO] Dados salvos: T:32.43°C | P:1004.95hPa | Alt:69.34m | Chuva:0.25mm
+2026-05-14 16:42:48,934 [INFO] Dados salvos: T:32.46°C | P:1004.96hPa | Alt:69.28m | Chuva:2.25mm
+2026-05-14 16:42:53,921 [INFO] Dados salvos: T:32.48°C | P:1004.96hPa | Alt:69.29m | Chuva:0.0mm
+2026-05-14 16:42:57,172 [INFO] Dados salvos: T:32.49°C | P:1004.95hPa | Alt:69.32m | Chuva:0.25mm
+2026-05-14 16:42:57,290 [INFO] Dados salvos: T:32.49°C | P:1004.95hPa | Alt:69.32m | Chuva:0.0mm
+2026-05-14 16:42:58,085 [INFO] Dados salvos: T:32.49°C | P:1004.95hPa | Alt:69.35m | Chuva:0.25mm
+2026-05-14 16:42:58,222 [INFO] Dados salvos: T:32.49°C | P:1004.95hPa | Alt:69.35m | Chuva:0.0mm
+2026-05-14 16:43:02,041 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.32m | Chuva:0.25mm
+2026-05-14 16:43:02,210 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.3m | Chuva:0.0mm
+2026-05-14 16:43:02,705 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.31m | Chuva:0.25mm
+2026-05-14 16:43:07,695 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.28m | Chuva:0.0mm
+2026-05-14 16:43:12,700 [INFO] Dados salvos: T:32.53°C | P:1004.95hPa | Alt:69.3m | Chuva:0.0mm
+2026-05-14 16:43:17,722 [INFO] Dados salvos: T:32.53°C | P:1004.96hPa | Alt:69.29m | Chuva:0.0mm
+2026-05-14 16:43:22,715 [INFO] Dados salvos: T:32.52°C | P:1004.95hPa | Alt:69.31m | Chuva:0.0mm
+2026-05-14 16:43:27,721 [INFO] Dados salvos: T:32.52°C | P:1004.95hPa | Alt:69.33m | Chuva:0.0mm
+2026-05-14 16:43:32,727 [INFO] Dados salvos: T:32.5°C | P:1004.95hPa | Alt:69.36m | Chuva:0.0mm
+2026-05-14 16:43:37,752 [INFO] Dados salvos: T:32.49°C | P:1004.94hPa | Alt:69.38m | Chuva:0.0mm
+2026-05-14 16:43:42,739 [INFO] Dados salvos: T:32.48°C | P:1004.94hPa | Alt:69.38m | Chuva:0.0mm
+2026-05-14 16:43:47,748 [INFO] Dados salvos: T:32.47°C | P:1004.95hPa | Alt:69.38m | Chuva:0.0mm
+2026-05-14 16:43:52,767 [INFO] Dados salvos: T:32.46°C | P:1004.94hPa | Alt:69.4m | Chuva:0.0mm
+2026-05-14 16:43:57,774 [INFO] Dados salvos: T:32.45°C | P:1004.95hPa | Alt:69.34m | Chuva:0.0mm
+2026-05-14 16:44:02,766 [INFO] Dados salvos: T:32.44°C | P:1004.95hPa | Alt:69.34m | Chuva:0.0mm
+2026-05-14 16:44:07,798 [INFO] Dados salvos: T:32.43°C | P:1004.94hPa | Alt:69.39m | Chuva:0.0mm
+2026-05-14 16:44:12,794 [INFO] Dados salvos: T:32.42°C | P:1004.94hPa | Alt:69.4m | Chuva:0.0mm
+2026-05-14 16:44:17,789 [INFO] Dados salvos: T:32.41°C | P:1004.94hPa | Alt:69.38m | Chuva:0.0mm
+2026-05-14 16:44:22,807 [INFO] Dados salvos: T:32.4°C | P:1004.95hPa | Alt:69.34m | Chuva:0.0mm
+2026-05-14 16:44:27,816 [INFO] Dados salvos: T:32.4°C | P:1004.95hPa | Alt:69.31m | Chuva:0.0mm
+2026-05-14 16:44:32,805 [INFO] Dados salvos: T:32.39°C | P:1004.95hPa | Alt:69.3m | Chuva:0.0mm
+2026-05-14 16:44:37,809 [INFO] Dados salvos: T:32.38°C | P:1004.96hPa | Alt:69.28m | Chuva:0.0mm
+2026-05-14 16:44:42,832 [INFO] Dados salvos: T:32.37°C | P:1004.95hPa | Alt:69.35m | Chuva:0.0mm
+2026-05-14 16:44:47,837 [INFO] Dados salvos: T:32.37°C | P:1004.94hPa | Alt:69.38m | Chuva:0.0mm
+2026-05-14 16:44:52,842 [INFO] Dados salvos: T:32.36°C | P:1004.95hPa | Alt:69.33m | Chuva:0.0mm
+2026-05-14 16:44:57,852 [INFO] Dados salvos: T:32.35°C | P:1004.95hPa | Alt:69.31m | Chuva:0.0mm
+2026-05-14 16:45:02,857 [INFO] Dados salvos: T:32.35°C | P:1004.96hPa | Alt:69.23m | Chuva:0.0mm
+2026-05-14 16:45:07,864 [INFO] Dados salvos: T:32.34°C | P:1004.96hPa | Alt:69.23m | Chuva:0.0mm
+2026-05-14 16:45:12,868 [INFO] Dados salvos: T:32.33°C | P:1004.96hPa | Alt:69.23m | Chuva:0.0mm
+2026-05-14 16:45:17,877 [INFO] Dados salvos: T:32.33°C | P:1004.97hPa | Alt:69.16m | Chuva:0.0mm
+2026-05-14 16:45:22,881 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.2m | Chuva:0.0mm
+2026-05-14 16:45:27,888 [INFO] Dados salvos: T:32.32°C | P:1004.96hPa | Alt:69.22m | Chuva:0.0mm
+2026-05-14 16:45:32,895 [INFO] Dados salvos: T:32.32°C | P:1004.96hPa | Alt:69.22m | Chuva:0.0mm
+2026-05-14 16:45:37,902 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.16m | Chuva:0.0mm
+2026-05-14 16:45:38,391 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.18m | Chuva:0.25mm
+2026-05-14 16:45:39,596 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.16m | Chuva:0.25mm
+2026-05-14 16:45:39,616 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.16m | Chuva:0.0mm
+2026-05-14 16:45:40,394 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.16m | Chuva:0.0mm
+2026-05-14 16:45:40,500 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.16m | Chuva:0.0mm
+2026-05-14 16:45:40,907 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.16m | Chuva:0.25mm
+2026-05-14 16:45:41,389 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.16m | Chuva:0.25mm
+2026-05-14 16:45:42,105 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.18m | Chuva:0.25mm
+2026-05-14 16:45:42,290 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.18m | Chuva:0.0mm
+2026-05-14 16:45:43,033 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.18m | Chuva:0.25mm
+2026-05-14 16:45:43,172 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.18m | Chuva:0.0mm
+2026-05-14 16:45:43,663 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.16m | Chuva:0.25mm
+2026-05-14 16:45:48,685 [INFO] Dados salvos: T:32.32°C | P:1004.97hPa | Alt:69.13m | Chuva:0.0mm
+2026-05-14 16:45:53,694 [INFO] Dados salvos: T:32.33°C | P:1004.97hPa | Alt:69.14m | Chuva:0.0mm
+2026-05-14 16:45:58,683 [INFO] Dados salvos: T:32.33°C | P:1004.98hPa | Alt:69.12m | Chuva:0.0mm
+2026-05-14 16:46:03,709 [INFO] Dados salvos: T:32.33°C | P:1004.98hPa | Alt:69.08m | Chuva:0.0mm
+2026-05-14 16:46:08,713 [INFO] Dados salvos: T:32.33°C | P:1004.98hPa | Alt:69.1m | Chuva:0.0mm
+2026-05-14 16:46:13,722 [INFO] Dados salvos: T:32.34°C | P:1004.97hPa | Alt:69.15m | Chuva:0.0mm
+2026-05-14 16:46:18,705 [INFO] Dados salvos: T:32.33°C | P:1004.97hPa | Alt:69.18m | Chuva:0.0mm
+2026-05-14 16:46:23,728 [INFO] Dados salvos: T:32.33°C | P:1004.97hPa | Alt:69.16m | Chuva:0.0mm
+2026-05-14 16:46:28,717 [INFO] Dados salvos: T:32.34°C | P:1004.97hPa | Alt:69.17m | Chuva:0.0mm
+2026-05-14 16:46:33,742 [INFO] Dados salvos: T:32.35°C | P:1004.97hPa | Alt:69.19m | Chuva:0.0mm
+2026-05-14 17:06:21,881 [INFO] Sistema iniciado. Buscando Arduino...
+2026-05-14 17:06:21,889 [INFO] Conectado em: COM3
+2026-05-14 17:06:23,899 [INFO] Dados salvos: T:32.42°C | P:1004.97hPa | Alt:69.19m | Chuva:0.0mm
+2026-05-14 17:06:28,638 [INFO] Dados salvos: T:32.43°C | P:1004.97hPa | Alt:69.15m | Chuva:0.0mm
+2026-05-14 17:06:33,643 [INFO] Dados salvos: T:32.44°C | P:1004.98hPa | Alt:69.05m | Chuva:0.0mm
+2026-05-14 17:06:36,208 [INFO] Dados salvos: T:32.44°C | P:1004.99hPa | Alt:69.03m | Chuva:0.25mm
+2026-05-14 17:06:37,877 [INFO] Dados salvos: T:32.44°C | P:1004.98hPa | Alt:69.04m | Chuva:0.25mm
+2026-05-14 17:06:40,082 [INFO] Dados salvos: T:32.45°C | P:1004.99hPa | Alt:69.04m | Chuva:0.25mm
+2026-05-14 17:06:42,111 [INFO] Dados salvos: T:32.45°C | P:1004.98hPa | Alt:69.05m | Chuva:0.25mm
+2026-05-14 17:06:44,865 [INFO] Dados salvos: T:32.45°C | P:1004.99hPa | Alt:69.02m | Chuva:0.25mm
+2026-05-14 17:06:49,883 [INFO] Dados salvos: T:32.46°C | P:1004.98hPa | Alt:69.08m | Chuva:0.0mm
+2026-05-14 17:06:54,200 [INFO] Dados salvos: T:32.47°C | P:1004.99hPa | Alt:69.04m | Chuva:0.5mm
+2026-05-14 17:06:58,743 [INFO] Dados salvos: T:32.48°C | P:1004.99hPa | Alt:69.03m | Chuva:0.25mm
+2026-05-14 17:07:03,748 [INFO] Dados salvos: T:32.48°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:07:03,853 [INFO] Dados salvos: T:32.48°C | P:1004.99hPa | Alt:69.03m | Chuva:0.25mm
+2026-05-14 17:07:06,469 [INFO] Dados salvos: T:32.49°C | P:1004.98hPa | Alt:69.09m | Chuva:0.25mm
+2026-05-14 17:07:11,477 [INFO] Dados salvos: T:32.49°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:07:16,481 [INFO] Dados salvos: T:32.48°C | P:1004.99hPa | Alt:69.03m | Chuva:0.25mm
+2026-05-14 17:07:21,491 [INFO] Dados salvos: T:32.47°C | P:1004.99hPa | Alt:69.02m | Chuva:0.25mm
+2026-05-14 17:07:26,508 [INFO] Dados salvos: T:32.47°C | P:1004.98hPa | Alt:69.04m | Chuva:0.0mm
+2026-05-14 17:07:31,485 [INFO] Dados salvos: T:32.47°C | P:1004.99hPa | Alt:69.02m | Chuva:0.0mm
+2026-05-14 17:07:36,494 [INFO] Dados salvos: T:32.46°C | P:1004.99hPa | Alt:68.98m | Chuva:0.0mm
+2026-05-14 17:07:41,503 [INFO] Dados salvos: T:32.46°C | P:1004.99hPa | Alt:69.0m | Chuva:0.0mm
+2026-05-14 17:07:46,520 [INFO] Dados salvos: T:32.45°C | P:1004.99hPa | Alt:69.01m | Chuva:0.0mm
+2026-05-14 17:07:51,512 [INFO] Dados salvos: T:32.44°C | P:1004.98hPa | Alt:69.04m | Chuva:0.0mm
+2026-05-14 17:07:56,535 [INFO] Dados salvos: T:32.43°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:08:01,527 [INFO] Dados salvos: T:32.43°C | P:1004.99hPa | Alt:69.01m | Chuva:0.0mm
+2026-05-14 17:08:06,545 [INFO] Dados salvos: T:32.43°C | P:1004.99hPa | Alt:69.02m | Chuva:0.0mm
+2026-05-14 17:08:11,553 [INFO] Dados salvos: T:32.42°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:08:16,539 [INFO] Dados salvos: T:32.42°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:08:21,564 [INFO] Dados salvos: T:32.4°C | P:1004.99hPa | Alt:69.0m | Chuva:0.0mm
+2026-05-14 17:08:26,570 [INFO] Dados salvos: T:32.38°C | P:1004.99hPa | Alt:69.01m | Chuva:0.0mm
+2026-05-14 17:08:31,563 [INFO] Dados salvos: T:32.36°C | P:1004.99hPa | Alt:69.0m | Chuva:0.0mm
+2026-05-14 17:08:36,567 [INFO] Dados salvos: T:32.34°C | P:1004.99hPa | Alt:68.97m | Chuva:0.0mm
+2026-05-14 17:08:41,591 [INFO] Dados salvos: T:32.32°C | P:1004.99hPa | Alt:68.96m | Chuva:0.0mm
+2026-05-14 17:08:46,579 [INFO] Dados salvos: T:32.3°C | P:1004.99hPa | Alt:69.0m | Chuva:0.0mm
+2026-05-14 17:08:51,591 [INFO] Dados salvos: T:32.27°C | P:1004.99hPa | Alt:69.04m | Chuva:0.0mm
+2026-05-14 17:08:56,612 [INFO] Dados salvos: T:32.24°C | P:1004.98hPa | Alt:69.1m | Chuva:0.0mm
+2026-05-14 17:09:01,600 [INFO] Dados salvos: T:32.22°C | P:1004.98hPa | Alt:69.09m | Chuva:0.0mm
+2026-05-14 17:09:06,622 [INFO] Dados salvos: T:32.21°C | P:1004.98hPa | Alt:69.05m | Chuva:0.0mm
+2026-05-14 17:09:11,611 [INFO] Dados salvos: T:32.2°C | P:1004.99hPa | Alt:68.97m | Chuva:0.0mm
+2026-05-14 17:09:16,621 [INFO] Dados salvos: T:32.19°C | P:1004.99hPa | Alt:69.0m | Chuva:0.0mm
+2026-05-14 17:09:21,641 [INFO] Dados salvos: T:32.17°C | P:1004.99hPa | Alt:68.99m | Chuva:0.0mm
+2026-05-14 17:09:26,645 [INFO] Dados salvos: T:32.16°C | P:1005.0hPa | Alt:68.94m | Chuva:0.0mm
+2026-05-14 17:09:31,633 [INFO] Dados salvos: T:32.15°C | P:1005.0hPa | Alt:68.93m | Chuva:0.0mm
+2026-05-14 17:09:36,660 [INFO] Dados salvos: T:32.15°C | P:1004.99hPa | Alt:68.96m | Chuva:0.0mm
+2026-05-14 17:09:41,666 [INFO] Dados salvos: T:32.14°C | P:1004.99hPa | Alt:69.0m | Chuva:0.0mm
+2026-05-14 17:09:46,654 [INFO] Dados salvos: T:32.14°C | P:1004.99hPa | Alt:68.99m | Chuva:0.0mm
+2026-05-14 17:09:51,676 [INFO] Dados salvos: T:32.14°C | P:1004.99hPa | Alt:69.01m | Chuva:0.0mm
+2026-05-14 17:09:56,684 [INFO] Dados salvos: T:32.15°C | P:1004.99hPa | Alt:69.0m | Chuva:0.0mm
+2026-05-14 17:10:01,677 [INFO] Dados salvos: T:32.14°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:10:06,700 [INFO] Dados salvos: T:32.14°C | P:1004.98hPa | Alt:69.06m | Chuva:0.0mm
+2026-05-14 17:10:11,703 [INFO] Dados salvos: T:32.13°C | P:1004.98hPa | Alt:69.05m | Chuva:0.0mm
+2026-05-14 17:10:16,692 [INFO] Dados salvos: T:32.12°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:10:21,715 [INFO] Dados salvos: T:32.13°C | P:1004.99hPa | Alt:68.99m | Chuva:0.0mm
+2026-05-14 17:10:26,721 [INFO] Dados salvos: T:32.13°C | P:1004.99hPa | Alt:68.99m | Chuva:0.0mm
+2026-05-14 17:10:31,711 [INFO] Dados salvos: T:32.14°C | P:1004.99hPa | Alt:69.01m | Chuva:0.0mm
+2026-05-14 17:10:36,738 [INFO] Dados salvos: T:32.15°C | P:1004.98hPa | Alt:69.06m | Chuva:0.0mm
+2026-05-14 17:10:41,745 [INFO] Dados salvos: T:32.15°C | P:1004.98hPa | Alt:69.07m | Chuva:0.0mm
+2026-05-14 17:10:46,732 [INFO] Dados salvos: T:32.14°C | P:1004.98hPa | Alt:69.08m | Chuva:0.0mm
+2026-05-14 17:10:51,739 [INFO] Dados salvos: T:32.14°C | P:1004.98hPa | Alt:69.08m | Chuva:0.0mm
+2026-05-14 17:10:56,757 [INFO] Dados salvos: T:32.14°C | P:1004.98hPa | Alt:69.06m | Chuva:0.0mm
+2026-05-14 17:11:01,747 [INFO] Dados salvos: T:32.13°C | P:1004.98hPa | Alt:69.05m | Chuva:0.0mm
+2026-05-14 17:11:06,774 [INFO] Dados salvos: T:32.12°C | P:1004.98hPa | Alt:69.12m | Chuva:0.0mm
+2026-05-14 17:11:11,763 [INFO] Dados salvos: T:32.11°C | P:1004.97hPa | Alt:69.18m | Chuva:0.0mm
+2026-05-14 17:11:16,769 [INFO] Dados salvos: T:32.1°C | P:1004.97hPa | Alt:69.2m | Chuva:0.0mm
+2026-05-14 17:11:21,776 [INFO] Dados salvos: T:32.09°C | P:1004.97hPa | Alt:69.2m | Chuva:0.0mm
+2026-05-14 17:11:26,798 [INFO] Dados salvos: T:32.09°C | P:1004.96hPa | Alt:69.25m | Chuva:0.0mm
+2026-05-14 17:11:31,784 [INFO] Dados salvos: T:32.08°C | P:1004.95hPa | Alt:69.31m | Chuva:0.0mm
+2026-05-14 17:11:36,811 [INFO] Dados salvos: T:32.08°C | P:1004.95hPa | Alt:69.33m | Chuva:0.0mm
+2026-05-14 17:11:41,815 [INFO] Dados salvos: T:32.07°C | P:1004.95hPa | Alt:69.34m | Chuva:0.0mm
+2026-05-14 17:11:46,820 [INFO] Dados salvos: T:32.07°C | P:1004.95hPa | Alt:69.36m | Chuva:0.0mm
+2026-05-14 17:11:51,839 [INFO] Dados salvos: T:32.07°C | P:1004.94hPa | Alt:69.39m | Chuva:0.0mm
+2026-05-14 17:11:56,833 [INFO] Dados salvos: T:32.06°C | P:1004.94hPa | Alt:69.38m | Chuva:0.0mm
+2026-05-14 17:12:01,842 [INFO] Dados salvos: T:32.06°C | P:1004.94hPa | Alt:69.43m | Chuva:0.0mm
+2026-05-14 17:12:06,845 [INFO] Dados salvos: T:32.06°C | P:1004.94hPa | Alt:69.44m | Chuva:0.0mm
+2026-05-14 17:12:11,854 [INFO] Dados salvos: T:32.05°C | P:1004.94hPa | Alt:69.45m | Chuva:0.0mm
+2026-05-14 17:12:16,842 [INFO] Dados salvos: T:32.05°C | P:1004.94hPa | Alt:69.39m | Chuva:0.0mm
+2026-05-14 17:12:21,866 [INFO] Dados salvos: T:32.05°C | P:1004.95hPa | Alt:69.37m | Chuva:0.0mm
+2026-05-14 17:12:26,874 [INFO] Dados salvos: T:32.04°C | P:1004.95hPa | Alt:69.32m | Chuva:0.0mm
+2026-05-14 17:12:31,860 [INFO] Dados salvos: T:32.04°C | P:1004.96hPa | Alt:69.27m | Chuva:0.0mm
+2026-05-14 17:12:36,890 [INFO] Dados salvos: T:32.04°C | P:1004.95hPa | Alt:69.33m | Chuva:0.0mm
+2026-05-14 17:12:41,892 [INFO] Dados salvos: T:32.04°C | P:1004.96hPa | Alt:69.24m | Chuva:0.0mm
+2026-05-14 17:12:46,883 [INFO] Dados salvos: T:32.04°C | P:1004.97hPa | Alt:69.13m | Chuva:0.0mm
+2026-05-14 17:12:51,905 [INFO] Dados salvos: T:32.04°C | P:1004.97hPa | Alt:69.14m | Chuva:0.0mm
+2026-05-14 17:12:56,895 [INFO] Dados salvos: T:32.03°C | P:1004.97hPa | Alt:69.15m | Chuva:0.0mm
+2026-05-14 17:13:01,918 [INFO] Dados salvos: T:32.03°C | P:1004.97hPa | Alt:69.17m | Chuva:0.0mm
+2026-05-14 17:13:06,923 [INFO] Dados salvos: T:32.02°C | P:1004.97hPa | Alt:69.19m | Chuva:0.0mm
+2026-05-14 17:13:11,929 [INFO] Dados salvos: T:32.02°C | P:1004.97hPa | Alt:69.14m | Chuva:0.0mm
+2026-05-14 17:13:16,915 [INFO] Dados salvos: T:32.02°C | P:1004.97hPa | Alt:69.13m | Chuva:0.0mm
+2026-05-14 17:13:21,943 [INFO] Dados salvos: T:32.01°C | P:1004.97hPa | Alt:69.15m | Chuva:0.0mm
+2026-05-14 17:13:26,947 [INFO] Dados salvos: T:32.01°C | P:1004.98hPa | Alt:69.12m | Chuva:0.0mm
+2026-05-14 17:13:31,956 [INFO] Dados salvos: T:32.0°C | P:1004.98hPa | Alt:69.08m | Chuva:0.0mm
+2026-05-14 17:13:36,951 [INFO] Dados salvos: T:31.99°C | P:1004.98hPa | Alt:69.09m | Chuva:0.0mm
+2026-05-14 17:13:41,966 [INFO] Dados salvos: T:31.99°C | P:1004.98hPa | Alt:69.07m | Chuva:0.0mm
+2026-05-14 17:13:46,974 [INFO] Dados salvos: T:31.98°C | P:1004.98hPa | Alt:69.11m | Chuva:0.0mm
+2026-05-14 17:13:51,960 [INFO] Dados salvos: T:31.97°C | P:1004.97hPa | Alt:69.16m | Chuva:0.0mm
+2026-05-14 17:13:56,969 [INFO] Dados salvos: T:31.97°C | P:1004.98hPa | Alt:69.1m | Chuva:0.0mm
+2026-05-14 17:14:01,977 [INFO] Dados salvos: T:31.97°C | P:1004.98hPa | Alt:69.06m | Chuva:0.0mm
+2026-05-14 17:14:06,999 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:69.02m | Chuva:0.0mm
+2026-05-14 17:14:12,005 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:68.98m | Chuva:0.0mm
+2026-05-14 17:14:17,009 [INFO] Dados salvos: T:31.98°C | P:1004.99hPa | Alt:69.01m | Chuva:0.0mm
+2026-05-14 17:14:21,999 [INFO] Dados salvos: T:31.98°C | P:1005.0hPa | Alt:68.94m | Chuva:0.0mm
+2026-05-14 17:14:27,026 [INFO] Dados salvos: T:31.98°C | P:1005.0hPa | Alt:68.93m | Chuva:0.0mm
+2026-05-14 17:14:32,031 [INFO] Dados salvos: T:31.98°C | P:1005.0hPa | Alt:68.92m | Chuva:0.0mm
+2026-05-14 17:14:37,017 [INFO] Dados salvos: T:31.98°C | P:1005.0hPa | Alt:68.94m | Chuva:0.0mm
+2026-05-14 17:14:42,040 [INFO] Dados salvos: T:31.98°C | P:1005.0hPa | Alt:68.93m | Chuva:0.0mm
+2026-05-14 17:14:47,057 [INFO] Dados salvos: T:31.99°C | P:1005.0hPa | Alt:68.88m | Chuva:0.0mm
+2026-05-14 17:14:52,054 [INFO] Dados salvos: T:31.99°C | P:1005.01hPa | Alt:68.87m | Chuva:0.0mm
+2026-05-14 17:14:57,059 [INFO] Dados salvos: T:31.99°C | P:1005.0hPa | Alt:68.93m | Chuva:0.0mm
+2026-05-14 17:15:02,067 [INFO] Dados salvos: T:31.99°C | P:1005.0hPa | Alt:68.93m | Chuva:0.0mm
+2026-05-14 17:15:07,079 [INFO] Dados salvos: T:31.99°C | P:1005.0hPa | Alt:68.91m | Chuva:0.0mm
+2026-05-14 17:15:12,063 [INFO] Dados salvos: T:31.98°C | P:1004.99hPa | Alt:68.97m | Chuva:0.0mm
+2026-05-14 17:15:17,089 [INFO] Dados salvos: T:31.98°C | P:1004.99hPa | Alt:69.02m | Chuva:0.0mm
+2026-05-14 17:15:22,074 [INFO] Dados salvos: T:31.98°C | P:1004.99hPa | Alt:68.97m | Chuva:0.0mm
+2026-05-14 17:15:27,098 [INFO] Dados salvos: T:31.98°C | P:1004.99hPa | Alt:69.01m | Chuva:0.0mm
+2026-05-14 17:15:32,103 [INFO] Dados salvos: T:31.98°C | P:1004.99hPa | Alt:69.02m | Chuva:0.0mm
+2026-05-14 17:15:37,092 [INFO] Dados salvos: T:31.97°C | P:1004.98hPa | Alt:69.05m | Chuva:0.0mm
+2026-05-14 17:15:42,099 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:15:47,124 [INFO] Dados salvos: T:31.97°C | P:1004.98hPa | Alt:69.07m | Chuva:0.0mm
+2026-05-14 17:15:52,113 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:15:57,137 [INFO] Dados salvos: T:31.98°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:16:02,146 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:69.03m | Chuva:0.0mm
+2026-05-14 17:16:07,132 [INFO] Dados salvos: T:31.97°C | P:1005.0hPa | Alt:68.95m | Chuva:0.0mm
+2026-05-14 17:16:12,157 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:68.99m | Chuva:0.0mm
+2026-05-14 17:16:17,160 [INFO] Dados salvos: T:31.96°C | P:1004.99hPa | Alt:69.0m | Chuva:0.0mm
+2026-05-14 17:16:22,152 [INFO] Dados salvos: T:31.96°C | P:1004.99hPa | Alt:68.97m | Chuva:0.0mm
+2026-05-14 17:16:27,175 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:68.96m | Chuva:0.0mm
+2026-05-14 17:16:32,181 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:68.98m | Chuva:0.0mm
+2026-05-14 17:16:37,170 [INFO] Dados salvos: T:31.97°C | P:1004.99hPa | Alt:69.02m | Chuva:0.0mm
+2026-05-14 17:16:42,194 [INFO] Dados salvos: T:31.98°C | P:1004.99hPa | Alt:68.97m | Chuva:0.0mm
+2026-05-14 17:16:47,199 [INFO] Dados salvos: T:31.98°C | P:1005.0hPa | Alt:68.94m | Chuva:0.0mm
+2026-05-14 17:16:52,207 [INFO] Dados salvos: T:31.98°C | P:1005.01hPa | Alt:68.84m | Chuva:0.0mm
+2026-05-14 17:16:57,212 [INFO] Dados salvos: T:31.98°C | P:1005.02hPa | Alt:68.77m | Chuva:0.0mm
+2026-05-14 17:17:02,221 [INFO] Dados salvos: T:31.99°C | P:1005.01hPa | Alt:68.8m | Chuva:0.0mm
+2026-05-14 17:17:07,212 [INFO] Dados salvos: T:32.01°C | P:1005.02hPa | Alt:68.77m | Chuva:0.0mm
+2026-05-14 17:17:12,230 [INFO] Dados salvos: T:32.03°C | P:1005.01hPa | Alt:68.79m | Chuva:0.0mm
+2026-05-14 17:17:17,222 [INFO] Dados salvos: T:32.05°C | P:1005.02hPa | Alt:68.78m | Chuva:0.0mm
+2026-05-14 17:17:22,244 [INFO] Dados salvos: T:32.07°C | P:1005.02hPa | Alt:68.77m | Chuva:0.0mm
+2026-05-14 17:17:27,248 [INFO] Dados salvos: T:32.09°C | P:1005.01hPa | Alt:68.83m | Chuva:0.0mm
+2026-05-14 17:17:32,256 [INFO] Dados salvos: T:32.11°C | P:1005.01hPa | Alt:68.79m | Chuva:0.0mm
+2026-05-14 17:17:37,264 [INFO] Dados salvos: T:32.13°C | P:1005.02hPa | Alt:68.75m | Chuva:0.0mm
+2026-05-14 17:17:42,267 [INFO] Dados salvos: T:32.15°C | P:1005.02hPa | Alt:68.76m | Chuva:0.0mm
+2026-05-14 17:17:47,258 [INFO] Dados salvos: T:32.16°C | P:1005.02hPa | Alt:68.76m | Chuva:0.0mm
+2026-05-14 17:17:52,287 [INFO] Dados salvos: T:32.17°C | P:1005.02hPa | Alt:68.77m | Chuva:0.0mm
+2026-05-14 17:17:57,269 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.85m | Chuva:0.0mm
+2026-05-14 17:18:02,294 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.81m | Chuva:0.0mm
+2026-05-14 17:18:07,283 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.0mm
+2026-05-14 17:18:12,306 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.0mm
+2026-05-14 17:18:17,312 [INFO] Dados salvos: T:32.2°C | P:1005.01hPa | Alt:68.84m | Chuva:0.0mm
+2026-05-14 17:18:22,301 [INFO] Dados salvos: T:32.21°C | P:1005.0hPa | Alt:68.89m | Chuva:0.0mm
+2026-05-14 17:18:27,307 [INFO] Dados salvos: T:32.22°C | P:1005.0hPa | Alt:68.93m | Chuva:0.0mm
+2026-05-14 17:18:32,332 [INFO] Dados salvos: T:32.24°C | P:1005.0hPa | Alt:68.88m | Chuva:0.0mm
+2026-05-14 17:18:37,320 [INFO] Dados salvos: T:32.26°C | P:1005.01hPa | Alt:68.85m | Chuva:0.0mm
+2026-05-14 17:18:42,343 [INFO] Dados salvos: T:32.27°C | P:1005.0hPa | Alt:68.91m | Chuva:0.0mm
+2026-05-14 17:18:47,335 [INFO] Dados salvos: T:32.28°C | P:1005.0hPa | Alt:68.93m | Chuva:0.0mm
+2026-05-14 17:18:52,344 [INFO] Dados salvos: T:32.29°C | P:1005.0hPa | Alt:68.91m | Chuva:0.0mm
+2026-05-14 17:18:57,364 [INFO] Dados salvos: T:32.3°C | P:1005.0hPa | Alt:68.88m | Chuva:0.0mm
+2026-05-14 17:19:02,354 [INFO] Dados salvos: T:32.3°C | P:1005.01hPa | Alt:68.87m | Chuva:0.0mm
+2026-05-14 17:19:07,375 [INFO] Dados salvos: T:32.3°C | P:1005.0hPa | Alt:68.95m | Chuva:0.0mm
+2026-05-14 17:23:57,943 [INFO] Sistema iniciado. Buscando Arduino...
+2026-05-14 17:23:57,950 [INFO] Conectado em: COM3
+2026-05-14 17:26:24,792 [INFO] Sistema iniciado. Buscando Arduino...
+2026-05-14 17:26:24,798 [INFO] Conectado em: COM3
+2026-05-14 17:29:10,948 [ERROR] Erro na conexão: GetOverlappedResult failed (PermissionError(13, 'Acesso negado.', None, 5)). Tentando reconectar em 5s...
+2026-05-14 17:29:15,995 [INFO] Conectado em: COM3
+2026-05-14 17:29:15,997 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 17:29:21,003 [INFO] Conectado em: COM3
+2026-05-14 17:30:31,571 [INFO] Sistema iniciado. Buscando Arduino...
+2026-05-14 17:30:31,578 [INFO] Conectado em: COM3
+2026-05-14 17:35:34,333 [INFO] Sistema iniciado. Buscando Arduino...
+2026-05-14 17:35:34,339 [INFO] Conectado em: COM3
+2026-05-14 17:35:34,340 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 17:35:39,354 [INFO] Conectado em: COM3
+2026-05-14 17:35:39,356 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 17:35:44,369 [INFO] Conectado em: COM3
+2026-05-14 17:35:44,371 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 17:35:49,385 [INFO] Conectado em: COM3
+2026-05-14 17:35:49,388 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 17:35:54,397 [INFO] Conectado em: COM3
+2026-05-14 17:35:54,398 [ERROR] Erro na conexão: could not open port 'COM3': PermissionError(13, 'Acesso negado.', None, 5). Tentando reconectar em 5s...
+2026-05-14 17:35:59,409 [INFO] Conectado em: COM3
+2026-05-14 17:36:01,431 [INFO] Dados salvos: T:32.2°C | P:1005.01hPa | Alt:68.83m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:01,444 [INFO] Dados salvos: T:32.2°C | P:1005.01hPa | Alt:68.83m | Chuva:0.25mm | Intervalo:259ms
+2026-05-14 17:36:06,416 [INFO] Dados salvos: T:32.2°C | P:1005.02hPa | Alt:68.75m | Chuva:0.25mm | Intervalo:770ms
+2026-05-14 17:36:08,250 [INFO] Dados salvos: T:32.2°C | P:1005.02hPa | Alt:68.74m | Chuva:0.25mm | Intervalo:6082ms
+2026-05-14 17:36:12,732 [INFO] Dados salvos: T:32.2°C | P:1005.02hPa | Alt:68.75m | Chuva:0.25mm | Intervalo:4529ms
+2026-05-14 17:36:17,736 [INFO] Dados salvos: T:32.2°C | P:1005.02hPa | Alt:68.75m | Chuva:0.25mm | Intervalo:4357ms
+2026-05-14 17:36:21,542 [INFO] Dados salvos: T:32.2°C | P:1005.02hPa | Alt:68.79m | Chuva:0.25mm | Intervalo:4434ms
+2026-05-14 17:36:22,377 [INFO] Dados salvos: T:32.2°C | P:1005.02hPa | Alt:68.78m | Chuva:0.25mm | Intervalo:694ms
+2026-05-14 17:36:24,233 [INFO] Dados salvos: T:32.2°C | P:1005.02hPa | Alt:68.76m | Chuva:0.25mm | Intervalo:1853ms
+2026-05-14 17:36:26,960 [INFO] Dados salvos: T:32.2°C | P:1005.02hPa | Alt:68.78m | Chuva:0.25mm | Intervalo:2735ms
+2026-05-14 17:36:31,963 [INFO] Dados salvos: T:32.2°C | P:1005.01hPa | Alt:68.84m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:32,911 [INFO] Dados salvos: T:32.2°C | P:1005.01hPa | Alt:68.84m | Chuva:0.25mm | Intervalo:5922ms
+2026-05-14 17:36:36,536 [INFO] Dados salvos: T:32.2°C | P:1005.01hPa | Alt:68.82m | Chuva:0.25mm | Intervalo:3627ms
+2026-05-14 17:36:41,524 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.84m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:42,056 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.83m | Chuva:0.25mm | Intervalo:5518ms
+2026-05-14 17:36:47,058 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.84m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:47,903 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.82m | Chuva:0.25mm | Intervalo:5819ms
+2026-05-14 17:36:50,637 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.25mm | Intervalo:2659ms
+2026-05-14 17:36:51,254 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:51,270 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:51,677 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.82m | Chuva:0.25mm | Intervalo:429ms
+2026-05-14 17:36:51,935 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.82m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:53,974 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.25mm | Intervalo:1924ms
+2026-05-14 17:36:54,083 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:54,282 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:36:54,610 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.8m | Chuva:0.25mm | Intervalo:464ms
+2026-05-14 17:36:58,048 [INFO] Dados salvos: T:32.19°C | P:1005.02hPa | Alt:68.79m | Chuva:0.25mm | Intervalo:3323ms
+2026-05-14 17:37:03,034 [INFO] Dados salvos: T:32.19°C | P:1005.01hPa | Alt:68.81m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:08,039 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.82m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:13,061 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.8m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:18,069 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.82m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:23,057 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.86m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:28,081 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.85m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:29,757 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.83m | Chuva:0.25mm | Intervalo:31699ms
+2026-05-14 17:37:34,753 [INFO] Dados salvos: T:32.18°C | P:1005.01hPa | Alt:68.83m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:39,771 [INFO] Dados salvos: T:32.17°C | P:1005.02hPa | Alt:68.77m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:44,779 [INFO] Dados salvos: T:32.16°C | P:1005.02hPa | Alt:68.71m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:49,769 [INFO] Dados salvos: T:32.15°C | P:1005.03hPa | Alt:68.64m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:54,771 [INFO] Dados salvos: T:32.14°C | P:1005.03hPa | Alt:68.68m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:37:59,797 [INFO] Dados salvos: T:32.13°C | P:1005.03hPa | Alt:68.68m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:04,800 [INFO] Dados salvos: T:32.11°C | P:1005.02hPa | Alt:68.73m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:09,811 [INFO] Dados salvos: T:32.11°C | P:1005.02hPa | Alt:68.72m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:14,814 [INFO] Dados salvos: T:32.1°C | P:1005.02hPa | Alt:68.75m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:19,821 [INFO] Dados salvos: T:32.09°C | P:1005.02hPa | Alt:68.78m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:24,827 [INFO] Dados salvos: T:32.08°C | P:1005.02hPa | Alt:68.74m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:29,820 [INFO] Dados salvos: T:32.07°C | P:1005.02hPa | Alt:68.75m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:34,840 [INFO] Dados salvos: T:32.06°C | P:1005.02hPa | Alt:68.74m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:39,832 [INFO] Dados salvos: T:32.05°C | P:1005.03hPa | Alt:68.68m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:44,852 [INFO] Dados salvos: T:32.03°C | P:1005.04hPa | Alt:68.62m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:49,861 [INFO] Dados salvos: T:32.01°C | P:1005.04hPa | Alt:68.61m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:54,866 [INFO] Dados salvos: T:32.0°C | P:1005.04hPa | Alt:68.62m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:38:59,857 [INFO] Dados salvos: T:31.99°C | P:1005.04hPa | Alt:68.59m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:04,878 [INFO] Dados salvos: T:31.99°C | P:1005.04hPa | Alt:68.6m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:09,869 [INFO] Dados salvos: T:31.98°C | P:1005.04hPa | Alt:68.54m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:14,896 [INFO] Dados salvos: T:31.98°C | P:1005.05hPa | Alt:68.47m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:19,900 [INFO] Dados salvos: T:31.97°C | P:1005.06hPa | Alt:68.43m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:24,886 [INFO] Dados salvos: T:31.95°C | P:1005.06hPa | Alt:68.4m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:29,910 [INFO] Dados salvos: T:31.94°C | P:1005.05hPa | Alt:68.47m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:34,918 [INFO] Dados salvos: T:31.93°C | P:1005.05hPa | Alt:68.51m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:39,925 [INFO] Dados salvos: T:31.91°C | P:1005.04hPa | Alt:68.6m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:44,931 [INFO] Dados salvos: T:31.91°C | P:1005.04hPa | Alt:68.62m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:49,919 [INFO] Dados salvos: T:31.9°C | P:1005.04hPa | Alt:68.58m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:51,516 [INFO] Dados salvos: T:31.9°C | P:1005.04hPa | Alt:68.61m | Chuva:0.25mm | Intervalo:141625ms
+2026-05-14 17:39:51,552 [INFO] Dados salvos: T:31.9°C | P:1005.04hPa | Alt:68.61m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:39:56,558 [INFO] Dados salvos: T:31.91°C | P:1005.04hPa | Alt:68.59m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:01,585 [INFO] Dados salvos: T:31.92°C | P:1005.05hPa | Alt:68.53m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:06,588 [INFO] Dados salvos: T:31.93°C | P:1005.04hPa | Alt:68.54m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:11,580 [INFO] Dados salvos: T:31.93°C | P:1005.04hPa | Alt:68.56m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:16,583 [INFO] Dados salvos: T:31.94°C | P:1005.04hPa | Alt:68.54m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:21,612 [INFO] Dados salvos: T:31.95°C | P:1005.04hPa | Alt:68.56m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:26,614 [INFO] Dados salvos: T:31.95°C | P:1005.03hPa | Alt:68.63m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:31,624 [INFO] Dados salvos: T:31.94°C | P:1005.03hPa | Alt:68.7m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:36,627 [INFO] Dados salvos: T:31.92°C | P:1005.03hPa | Alt:68.67m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:41,615 [INFO] Dados salvos: T:31.9°C | P:1005.03hPa | Alt:68.64m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:46,640 [INFO] Dados salvos: T:31.89°C | P:1005.04hPa | Alt:68.61m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:51,633 [INFO] Dados salvos: T:31.88°C | P:1005.04hPa | Alt:68.58m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:40:56,652 [INFO] Dados salvos: T:31.88°C | P:1005.03hPa | Alt:68.63m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:01,641 [INFO] Dados salvos: T:31.89°C | P:1005.04hPa | Alt:68.61m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:06,665 [INFO] Dados salvos: T:31.89°C | P:1005.05hPa | Alt:68.48m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:11,675 [INFO] Dados salvos: T:31.89°C | P:1005.06hPa | Alt:68.4m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:16,679 [INFO] Dados salvos: T:31.88°C | P:1005.07hPa | Alt:68.31m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:21,688 [INFO] Dados salvos: T:31.87°C | P:1005.07hPa | Alt:68.37m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:26,689 [INFO] Dados salvos: T:31.87°C | P:1005.06hPa | Alt:68.45m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:31,699 [INFO] Dados salvos: T:31.86°C | P:1005.04hPa | Alt:68.56m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:36,702 [INFO] Dados salvos: T:31.86°C | P:1005.04hPa | Alt:68.59m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:41,710 [INFO] Dados salvos: T:31.85°C | P:1005.03hPa | Alt:68.62m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:46,711 [INFO] Dados salvos: T:31.85°C | P:1005.04hPa | Alt:68.62m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:51,721 [INFO] Dados salvos: T:31.84°C | P:1005.05hPa | Alt:68.52m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:41:56,713 [INFO] Dados salvos: T:31.84°C | P:1005.05hPa | Alt:68.5m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:01,718 [INFO] Dados salvos: T:31.84°C | P:1005.05hPa | Alt:68.48m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:06,742 [INFO] Dados salvos: T:31.83°C | P:1005.05hPa | Alt:68.49m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:11,731 [INFO] Dados salvos: T:31.83°C | P:1005.05hPa | Alt:68.48m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:16,758 [INFO] Dados salvos: T:31.83°C | P:1005.04hPa | Alt:68.54m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:21,745 [INFO] Dados salvos: T:31.82°C | P:1005.05hPa | Alt:68.54m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:26,768 [INFO] Dados salvos: T:31.81°C | P:1005.05hPa | Alt:68.48m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:31,758 [INFO] Dados salvos: T:31.8°C | P:1005.05hPa | Alt:68.51m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:36,781 [INFO] Dados salvos: T:31.8°C | P:1005.04hPa | Alt:68.56m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:41,774 [INFO] Dados salvos: T:31.79°C | P:1005.04hPa | Alt:68.56m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:46,792 [INFO] Dados salvos: T:31.8°C | P:1005.05hPa | Alt:68.51m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:51,802 [INFO] Dados salvos: T:31.8°C | P:1005.04hPa | Alt:68.54m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:42:56,789 [INFO] Dados salvos: T:31.8°C | P:1005.05hPa | Alt:68.53m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:01,813 [INFO] Dados salvos: T:31.79°C | P:1005.05hPa | Alt:68.5m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:06,817 [INFO] Dados salvos: T:31.78°C | P:1005.05hPa | Alt:68.5m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:11,825 [INFO] Dados salvos: T:31.76°C | P:1005.06hPa | Alt:68.42m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:16,815 [INFO] Dados salvos: T:31.74°C | P:1005.07hPa | Alt:68.35m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:21,841 [INFO] Dados salvos: T:31.72°C | P:1005.08hPa | Alt:68.28m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:26,843 [INFO] Dados salvos: T:31.7°C | P:1005.08hPa | Alt:68.22m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:31,854 [INFO] Dados salvos: T:31.69°C | P:1005.09hPa | Alt:68.19m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:36,858 [INFO] Dados salvos: T:31.67°C | P:1005.08hPa | Alt:68.21m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:41,862 [INFO] Dados salvos: T:31.66°C | P:1005.09hPa | Alt:68.14m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:46,871 [INFO] Dados salvos: T:31.65°C | P:1005.1hPa | Alt:68.07m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:51,877 [INFO] Dados salvos: T:31.64°C | P:1005.11hPa | Alt:68.03m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:43:56,881 [INFO] Dados salvos: T:31.63°C | P:1005.11hPa | Alt:68.02m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:01,871 [INFO] Dados salvos: T:31.63°C | P:1005.1hPa | Alt:68.06m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:06,894 [INFO] Dados salvos: T:31.62°C | P:1005.1hPa | Alt:68.08m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:11,901 [INFO] Dados salvos: T:31.61°C | P:1005.1hPa | Alt:68.09m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:16,890 [INFO] Dados salvos: T:31.59°C | P:1005.1hPa | Alt:68.11m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:21,913 [INFO] Dados salvos: T:31.58°C | P:1005.1hPa | Alt:68.12m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:26,921 [INFO] Dados salvos: T:31.57°C | P:1005.09hPa | Alt:68.11m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:31,926 [INFO] Dados salvos: T:31.56°C | P:1005.1hPa | Alt:68.06m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:36,933 [INFO] Dados salvos: T:31.56°C | P:1005.1hPa | Alt:68.06m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:41,939 [INFO] Dados salvos: T:31.56°C | P:1005.11hPa | Alt:68.01m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:46,927 [INFO] Dados salvos: T:31.55°C | P:1005.1hPa | Alt:68.06m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:51,952 [INFO] Dados salvos: T:31.55°C | P:1005.1hPa | Alt:68.05m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:44:56,959 [INFO] Dados salvos: T:31.54°C | P:1005.11hPa | Alt:68.03m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:01,947 [INFO] Dados salvos: T:31.53°C | P:1005.11hPa | Alt:67.99m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:06,969 [INFO] Dados salvos: T:31.53°C | P:1005.11hPa | Alt:67.99m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:11,961 [INFO] Dados salvos: T:31.52°C | P:1005.11hPa | Alt:67.96m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:16,967 [INFO] Dados salvos: T:31.52°C | P:1005.11hPa | Alt:67.97m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:21,974 [INFO] Dados salvos: T:31.51°C | P:1005.12hPa | Alt:67.95m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:26,987 [INFO] Dados salvos: T:31.51°C | P:1005.12hPa | Alt:67.91m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:31,988 [INFO] Dados salvos: T:31.51°C | P:1005.12hPa | Alt:67.89m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:36,992 [INFO] Dados salvos: T:31.51°C | P:1005.12hPa | Alt:67.91m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:42,016 [INFO] Dados salvos: T:31.5°C | P:1005.12hPa | Alt:67.91m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:47,004 [INFO] Dados salvos: T:31.5°C | P:1005.12hPa | Alt:67.9m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:52,030 [INFO] Dados salvos: T:31.5°C | P:1005.12hPa | Alt:67.9m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:45:57,034 [INFO] Dados salvos: T:31.49°C | P:1005.12hPa | Alt:67.91m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:02,040 [INFO] Dados salvos: T:31.48°C | P:1005.13hPa | Alt:67.81m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:07,030 [INFO] Dados salvos: T:31.48°C | P:1005.13hPa | Alt:67.81m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:12,053 [INFO] Dados salvos: T:31.48°C | P:1005.12hPa | Alt:67.88m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:17,043 [INFO] Dados salvos: T:31.47°C | P:1005.12hPa | Alt:67.92m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:22,065 [INFO] Dados salvos: T:31.47°C | P:1005.12hPa | Alt:67.91m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:27,071 [INFO] Dados salvos: T:31.46°C | P:1005.12hPa | Alt:67.89m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:32,061 [INFO] Dados salvos: T:31.45°C | P:1005.12hPa | Alt:67.91m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:37,068 [INFO] Dados salvos: T:31.44°C | P:1005.13hPa | Alt:67.85m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:42,078 [INFO] Dados salvos: T:31.44°C | P:1005.13hPa | Alt:67.81m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:47,099 [INFO] Dados salvos: T:31.43°C | P:1005.13hPa | Alt:67.84m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:52,108 [INFO] Dados salvos: T:31.43°C | P:1005.13hPa | Alt:67.81m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:46:57,112 [INFO] Dados salvos: T:31.42°C | P:1005.14hPa | Alt:67.76m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:02,118 [INFO] Dados salvos: T:31.42°C | P:1005.14hPa | Alt:67.73m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:07,124 [INFO] Dados salvos: T:31.42°C | P:1005.14hPa | Alt:67.72m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:12,132 [INFO] Dados salvos: T:31.42°C | P:1005.14hPa | Alt:67.76m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:17,138 [INFO] Dados salvos: T:31.41°C | P:1005.13hPa | Alt:67.81m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:22,139 [INFO] Dados salvos: T:31.41°C | P:1005.12hPa | Alt:67.87m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:27,149 [INFO] Dados salvos: T:31.41°C | P:1005.12hPa | Alt:67.87m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:32,152 [INFO] Dados salvos: T:31.4°C | P:1005.12hPa | Alt:67.93m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:37,145 [INFO] Dados salvos: T:31.4°C | P:1005.12hPa | Alt:67.89m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:42,170 [INFO] Dados salvos: T:31.39°C | P:1005.13hPa | Alt:67.8m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:47,174 [INFO] Dados salvos: T:31.39°C | P:1005.14hPa | Alt:67.72m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:52,164 [INFO] Dados salvos: T:31.39°C | P:1005.15hPa | Alt:67.66m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:47:57,186 [INFO] Dados salvos: T:31.39°C | P:1005.15hPa | Alt:67.65m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:02,197 [INFO] Dados salvos: T:31.38°C | P:1005.16hPa | Alt:67.61m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:07,199 [INFO] Dados salvos: T:31.38°C | P:1005.16hPa | Alt:67.57m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:12,206 [INFO] Dados salvos: T:31.38°C | P:1005.16hPa | Alt:67.56m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:17,197 [INFO] Dados salvos: T:31.37°C | P:1005.16hPa | Alt:67.6m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:22,219 [INFO] Dados salvos: T:31.37°C | P:1005.16hPa | Alt:67.58m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:27,225 [INFO] Dados salvos: T:31.36°C | P:1005.15hPa | Alt:67.64m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:32,217 [INFO] Dados salvos: T:31.35°C | P:1005.14hPa | Alt:67.7m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:37,224 [INFO] Dados salvos: T:31.35°C | P:1005.14hPa | Alt:67.71m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:42,244 [INFO] Dados salvos: T:31.34°C | P:1005.14hPa | Alt:67.75m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:47,248 [INFO] Dados salvos: T:31.34°C | P:1005.13hPa | Alt:67.79m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:52,257 [INFO] Dados salvos: T:31.33°C | P:1005.14hPa | Alt:67.76m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:48:57,265 [INFO] Dados salvos: T:31.33°C | P:1005.14hPa | Alt:67.75m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:02,269 [INFO] Dados salvos: T:31.33°C | P:1005.14hPa | Alt:67.7m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:07,276 [INFO] Dados salvos: T:31.33°C | P:1005.15hPa | Alt:67.68m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:12,284 [INFO] Dados salvos: T:31.32°C | P:1005.14hPa | Alt:67.75m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:17,289 [INFO] Dados salvos: T:31.32°C | P:1005.14hPa | Alt:67.76m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:22,282 [INFO] Dados salvos: T:31.32°C | P:1005.14hPa | Alt:67.71m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:27,323 [INFO] Dados salvos: T:31.31°C | P:1005.14hPa | Alt:67.73m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:32,305 [INFO] Dados salvos: T:31.31°C | P:1005.14hPa | Alt:67.78m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:37,300 [INFO] Dados salvos: T:31.31°C | P:1005.14hPa | Alt:67.74m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:42,321 [INFO] Dados salvos: T:31.33°C | P:1005.14hPa | Alt:67.75m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:47,326 [INFO] Dados salvos: T:31.36°C | P:1005.14hPa | Alt:67.78m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:52,318 [INFO] Dados salvos: T:31.38°C | P:1005.14hPa | Alt:67.71m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:49:57,342 [INFO] Dados salvos: T:31.41°C | P:1005.15hPa | Alt:67.7m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:02,349 [INFO] Dados salvos: T:31.43°C | P:1005.15hPa | Alt:67.69m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:07,336 [INFO] Dados salvos: T:31.46°C | P:1005.15hPa | Alt:67.69m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:12,359 [INFO] Dados salvos: T:31.48°C | P:1005.15hPa | Alt:67.66m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:17,365 [INFO] Dados salvos: T:31.51°C | P:1005.15hPa | Alt:67.62m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:22,354 [INFO] Dados salvos: T:31.53°C | P:1005.15hPa | Alt:67.69m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:27,377 [INFO] Dados salvos: T:31.54°C | P:1005.15hPa | Alt:67.66m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:32,386 [INFO] Dados salvos: T:31.55°C | P:1005.16hPa | Alt:67.6m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:37,375 [INFO] Dados salvos: T:31.56°C | P:1005.16hPa | Alt:67.59m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:42,402 [INFO] Dados salvos: T:31.57°C | P:1005.16hPa | Alt:67.57m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:47,404 [INFO] Dados salvos: T:31.57°C | P:1005.15hPa | Alt:67.62m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:52,396 [INFO] Dados salvos: T:31.58°C | P:1005.15hPa | Alt:67.63m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:50:57,401 [INFO] Dados salvos: T:31.59°C | P:1005.16hPa | Alt:67.61m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:02,423 [INFO] Dados salvos: T:31.59°C | P:1005.14hPa | Alt:67.75m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:07,412 [INFO] Dados salvos: T:31.59°C | P:1005.13hPa | Alt:67.81m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:12,437 [INFO] Dados salvos: T:31.6°C | P:1005.14hPa | Alt:67.76m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:17,448 [INFO] Dados salvos: T:31.6°C | P:1005.14hPa | Alt:67.71m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:22,432 [INFO] Dados salvos: T:31.6°C | P:1005.15hPa | Alt:67.69m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:27,437 [INFO] Dados salvos: T:31.6°C | P:1005.14hPa | Alt:67.71m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:32,466 [INFO] Dados salvos: T:31.59°C | P:1005.15hPa | Alt:67.68m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:37,472 [INFO] Dados salvos: T:31.58°C | P:1005.14hPa | Alt:67.7m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:42,479 [INFO] Dados salvos: T:31.56°C | P:1005.15hPa | Alt:67.65m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:47,480 [INFO] Dados salvos: T:31.54°C | P:1005.16hPa | Alt:67.61m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:52,469 [INFO] Dados salvos: T:31.53°C | P:1005.17hPa | Alt:67.53m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:51:57,495 [INFO] Dados salvos: T:31.52°C | P:1005.17hPa | Alt:67.46m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:52:02,501 [INFO] Dados salvos: T:31.52°C | P:1005.17hPa | Alt:67.45m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:52:07,510 [INFO] Dados salvos: T:31.51°C | P:1005.16hPa | Alt:67.54m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:52:12,513 [INFO] Dados salvos: T:31.51°C | P:1005.17hPa | Alt:67.51m | Chuva:0.0mm | Intervalo:0ms
+2026-05-14 17:52:17,501 [INFO] Dados salvos: T:31.51°C | P:1005.16hPa | Alt:67.54m | Chuva:0.0mm | Intervalo:0ms
